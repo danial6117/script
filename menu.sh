@@ -48,7 +48,7 @@ tr-add
 tr-del
 ;;
 7)
-
+info
 ;;
 8)
 change
