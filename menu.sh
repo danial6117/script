@@ -18,13 +18,12 @@ echo -e "   6.DELETE USER"
 echo -e ""
 echo -e "==ADD-ON============================"
 echo -e ""
-echo -e "   7.INFO SERVER"  
-echo -e "   8.CHANGE PORT"                         
-echo -e "   9.ALL USER MEMBER"        
-echo -e "   10.ALL USER ONLINE"    
-echo -e "   11.TCP&BBR TWEAK"    
-echo -e "   12.SPEEDTEST VPS "            
-echo -e "   13.REBOOT VPS "           
+echo -e "   7.INFO SERVER"                        
+echo -e "   8.ALL USER MEMBER"        
+echo -e "   9.ALL USER ONLINE"    
+echo -e "   10.TCP&BBR TWEAK"    
+echo -e "   11.SPEEDTEST VPS "            
+echo -e "   12.REBOOT VPS "           
 echo -e ""
 echo -e "====================================="
 read -p "SELECT FROM OPTIONS [ 1 - 12 ] : " menu
@@ -51,18 +50,15 @@ tr-del
 info
 ;;
 8)
-change
-;;
-9)
 member
 ;;
-10)
+9)
 cek
 ;;
-11)
+10)
 ./tcp.sh
 ;;
-12)
+11)
 speedtest
 ;;
 12)
