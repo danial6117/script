@@ -24,7 +24,7 @@ echo -e "  9.TCP&BBR TWEAK"
 echo -e " 10.REBOOT VPS "           
 echo -e ""
 echo -e "====================================="
-read -p "SELECT FROM [ 1 - 12 ] : " menu
+read -p "SELECT FROM [ 1 - 10 ] : " menu
 case $menu in
 1)
 usernew
