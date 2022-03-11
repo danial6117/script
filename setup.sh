@@ -413,6 +413,6 @@ echo "   - Telegram                : t.me/nialVPN"  | tee -a log-install.txt
 echo "------------------Script Created By NIALSCRIPT-----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
-rm -f /root/nialscript.sh /root/cert.pem /root/jcameron-key.asc /root/key.pem       
+rm -f /root/nialscript.sh /root/cert.pem /root/jcameron-key.asc /root/key.pem�������
 sleep 15
 reboot
