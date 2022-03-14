@@ -45,7 +45,7 @@ tr-add
 tr-del
 ;;
 6)
-freescript
+trojan
 ;;
 7)
 info
@@ -57,7 +57,7 @@ member
 cek
 ;;
 10)
-tcp
+bbr
 ;;
 11)
 nano /usr/bin/init-zram-swapping
