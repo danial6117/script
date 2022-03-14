@@ -17,11 +17,13 @@ echo -e "  5.DELETE USER"
 echo -e ""
 echo -e "==ADD-ON============================"
 echo -e ""
-echo -e "  6.INFO SERVER"                        
-echo -e "  7.ALL USER MEMBER"        
-echo -e "  8.ALL USER ONLINE"    
-echo -e "  9.TCP&BBR TWEAK"              
-echo -e " 10.REBOOT VPS "           
+echo -e "  6.INFO SERVER"                     
+echo -e "  7.ALL USER MEMBER"     
+echo -e "  8.ALL USER ONLINE"
+echo -e "  9.TCP&BBR TWEAK" 
+echo -e " 10.ZRAM TWEAK"  
+echo -e " 11.DNS CHANGER"   
+echo -e " 12.REBOOT VPS "           
 echo -e ""
 echo -e "====================================="
 read -p "SELECT FROM [ 1 - 10 ] : " menu
@@ -54,6 +56,12 @@ cek
 ./tcp.sh
 ;;
 10)
+nano /usr/bin/init-zram-swapping
+;;
+11)
+nano /etc/resolv.conf
+;;
+12)
 reboot
 ;;
 *)
