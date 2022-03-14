@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo -e ""
-echo -e " ==NIALVPN-SERVER===================="
+echo -e " ==NIALVPN-SERVER=================="
 echo -e ""
 echo -e "==OPENVPN-SSH======================"
 echo -e ""
