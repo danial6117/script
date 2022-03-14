@@ -1,4 +1,5 @@
 #!/bin/bash
+
 clear
 echo -e ""
 echo -e "===NIALVPN-SERVER=================="
