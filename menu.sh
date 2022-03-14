@@ -1,5 +1,4 @@
 #!/bin/bash
-
 clear
 echo -e ""
 echo -e "===NIALVPN-SERVER=================="
@@ -27,7 +26,9 @@ echo -e " 12.DNS CHANGER"
 echo -e " 13.REBOOT VPS "           
 echo -e ""
 echo -e "====================================="
-read -p "SELECT FROM [ 1 - 13 ] : " menu
+echo -e ""
+read -p "SELECT FROM OPTIONS [ 1 - 13 ] : " menu
+echo -e ""
 case $menu in
 1)
 usernew
