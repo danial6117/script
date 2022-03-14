@@ -26,7 +26,7 @@ echo -e " 11.DNS CHANGER"
 echo -e " 12.REBOOT VPS "           
 echo -e ""
 echo -e "====================================="
-read -p "SELECT FROM [ 1 - 10 ] : " menu
+read -p "SELECT FROM [ 1 - 12 ] : " menu
 case $menu in
 1)
 usernew
