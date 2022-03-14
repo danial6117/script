@@ -14,19 +14,20 @@ echo -e "==TROJAN-TCP========================"
 echo -e ""
 echo -e "  4.NEW USER" 
 echo -e "  5.DELETE USER" 
+echo -e "  6.START/CHANGE PORT" 
 echo -e ""
 echo -e "==ADD-ON============================"
 echo -e ""
-echo -e "  6.INFO SERVER"                     
-echo -e "  7.ALL USER MEMBER"     
-echo -e "  8.ALL USER ONLINE"
-echo -e "  9.TCP&BBR TWEAK" 
-echo -e " 10.ZRAM TWEAK"  
-echo -e " 11.DNS CHANGER"   
-echo -e " 12.REBOOT VPS "           
+echo -e "  7.INFO SERVER"                     
+echo -e "  8.ALL USER MEMBER"     
+echo -e "  9.ALL USER ONLINE"
+echo -e " 10.TCP&BBR TWEAK" 
+echo -e " 11.ZRAM TWEAK"  
+echo -e " 12.DNS CHANGER"   
+echo -e " 13.REBOOT VPS "           
 echo -e ""
 echo -e "====================================="
-read -p "SELECT FROM [ 1 - 12 ] : " menu
+read -p "SELECT FROM [ 1 - 13 ] : " menu
 case $menu in
 1)
 usernew
@@ -44,24 +45,27 @@ tr-add
 tr-del
 ;;
 6)
-info
+./freescript.sh
 ;;
 7)
-member
+info
 ;;
 8)
-cek
+member
 ;;
 9)
-./tcp.sh
+cek
 ;;
 10)
-nano /usr/bin/init-zram-swapping
+./tcp.sh
 ;;
 11)
-nano /etc/resolv.conf
+nano /usr/bin/init-zram-swapping
 ;;
 12)
+nano /etc/resolv.conf
+;;
+13)
 reboot
 ;;
 *)
