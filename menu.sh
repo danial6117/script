@@ -28,7 +28,7 @@ echo -e "   14.REBOOT VPS "
 echo -e ""
 echo -e "===================================="
 echo -e ""
-read -p "SELECT FROM OPTIONS [ 1 - 13 ] : " menu
+read -p "SELECT FROM OPTIONS [ 1 - 14 ] : " menu
 echo -e ""
 case $menu in
 1)
