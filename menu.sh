@@ -68,7 +68,7 @@ bbr
 nano /usr/bin/init-zram-swapping
 ;;
 13)
-apt install autoremove
+apt autoremove
 ;;
 14)
 reboot
