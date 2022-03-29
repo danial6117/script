@@ -1,5 +1,5 @@
 #!/bin/bash
-# TWEAK VPS
+apt update && apt upgrade -y
 apt install tweak -y
 apt install mate-tweak -y
 apt install snapd -y
