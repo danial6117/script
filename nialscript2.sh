@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /usr/bin
 apt update && apt upgrade -y
 apt install tweak -y
 apt install resolvconf 
